@@ -1,0 +1,81 @@
+html{
+    height:100%;
+}
+body{
+    height:100%;
+}
+div.full-height{height:100%;}
+div.leftWidget, div.leftWidget div{
+    float:left;
+    text-align:left;
+}
+div.rightWidget, div.rightWidget div{
+    float:right;
+    text-align:right;
+}
+
+/* Link styling */
+a:link {
+    color: #22B1D7;
+}
+a:visited {
+    color: #22B1D7;
+}
+a:hover {
+    color: #22B1D7;
+}
+a:active {
+    color: #22B1D7;
+}
+
+
+/* Small hack because FontIcon does not use the style it gets through props */
+.bigIcon {
+  font-size: 35px !important;
+}
+/* end hack */
+
+.page {
+    margin: 0 15px;
+    height:100%;
+}
+
+
+.bottom-area-container{
+    flex-grow:1;
+}
+
+.steplabel>span{
+  padding:0 !important;
+}
+
+#app{
+    height:100%;
+    color:#fff;
+    min-width:300px;
+    font-family: 'Soho Gothic W01 Light', sans-serif;
+    font-weight: 100;
+    font-size: 3.5vw;
+    min-height: 550px;
+    overflow: hidden;
+}
+
+/* loading page */
+.loading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 80%;
+}
+.loading img{
+  width: 32px;
+  height: 32px;
+}
+/* enforce portrait proportions */
+@media screen and (min-width: 450px) {
+    #app {
+	    width: 450px;
+	    margin:0 auto;
+        font-size: 16px;
+    }
+}

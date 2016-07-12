@@ -1,0 +1,115 @@
+const nlMessages = {
+  //error messages
+  "error.unauthorized": "Unauthorized",
+  "error.forbidden": "Forbidden",
+  "error.badrequest": "Some field is wrong",
+  "error.servererror": "Server Error",
+  "error.notfound": "Not found",
+  "error.conflict": "Email existed.",
+  //footer
+  "footer": "Drops by",
+  //Menu
+  "menu.selectBuilding": "Change Building",
+  "menu.about": "About Drops",
+  "menu.help": "Help",
+  "menu.changePassword": "Change Password",
+  "menu.settings": "Settings",
+  //signup page
+  "register.title": "Register",
+  "register.name": "Your Name",
+  "register.email": "Personal Email",
+  "register.password": "Password",
+  "register.submit": "Register",
+  //login page
+  "login.title": "Sign in",
+  "login.signup": "Need an account?",
+  "login.signupLink": "Sign up here",
+  "login.forgotLink": "Forgot password?",
+  "login.email": "Email Address",
+  "login.password": "Password",
+  "login.submit": "Sign in",
+  "login.facebookButton": "Sign in with facebook",
+  "login.linkedinButton": "Sign in with Linkedin",
+  //home page
+  "homepage.hello": "hello {name}",
+  "homepage.notification": "You have {number} {bookingText} today",
+  "homepage.buttonBar.report": "Report an issue",
+  "homepage.buttonBar.meeting": "Meeting rooms",
+  "homepage.buttonBar.restaurant": "Restaurants nearby",
+  "homepage.buttonBar.services": "Services",
+  "homepage.buttonBar.map": "Map",
+  "homepage.mobility.maison": "Trajet maison",
+  "homepage.mobility.bus": "Next bus",
+  "homepage.mobility.metro": "Next metro",
+  "homepage.mobility.velib": "Velib",
+  //about page
+  "about.title": "ABOUT TO DROPS",
+  "about.copyright": "copyright {year}",
+  "about.name": "Drops by FlatTurtle",
+  "about.contact": "And a way to get in touch with our helpdesk: help@drops.io",
+  "about.version": "Version: {version}",
+  //callback page
+  "callback.message": "Succesfully verified",
+  "callback.continue": "Continue",
+  //change password page
+  "changepassword.title": "Change Password",
+  "changepassword.current": "Current Password",
+  "changepassword.new": "New Password",
+  "changepassword.newAgain": "New Password Again",
+  "changepassword.buttonText": "Change",
+  // forgot password page
+  "forgotpassword.title": "Forgot Password",
+  "forgotpassword.email": "Your email",
+  "forgotpassword.buttonText": "Send",
+  // retrieve password page
+  "retrievepassword.title": "Retrieve Password",
+  "retrievepassword.new": "New Password",
+  "retrievepassword.newAgain": "New Password Again",
+  "retrievepassword.buttonText": "Retrieve",
+  // report page
+  "report.title": "Incident Report",
+  "report.message": "The incident has been reported! Thank you for your feedback.",
+  "report.what": "What",
+  "report.where": "Where",
+  "report.extra": "Extra info",
+  "report.whatList": ["Temperature", "Noise", "Cleaning", "Broken", "Dangerous", "Urgent"],
+  "report.whereList": ["Office", "Toilet", "Elevator", "Entrance", "Parking", "Outside"],
+  "report.somethingElse": "something else",
+  "report.somewhereElse": "somewhere else",
+  "report.button.drop": "Drop a picture",
+  "report.button.previous": "Previous",
+  "report.button.next": "Next",
+  "report.button.finish": "Finish",
+  //setting page
+  "setting.personal": "Personal",
+  "setting.personal.name": "Name",
+  "setting.personal.email": "Email",
+  "setting.personal.workEmail": "Work Email",
+  "setting.personal.phone": "Phone",
+  "setting.personal.buttonEditText": "Edit",
+  "setting.personal.buttonText": "Save",
+  "setting.transport": "Transport",
+  "setting.notification": "Notification",
+  //verify phone number page
+  "verifynumber.title": "Verify phone number",
+  "verifynumber.number.buttonText": "verify",
+  "verifynumber.code.pin": "PIN CODE",
+  "verifynumber.code.buttonText": "confirm",
+  //list building page
+  "building.search": "search the building",
+  "building.nextButton": "next to me",
+  "building.title": "LIST BUILDING",
+  //service page
+  "service.title": "Services",
+  "service.name": "Name",
+  "service.description": "Description",
+  "service.category": "Category",
+  //mobility page
+  "mobility.autolib": "Autolib",
+  "mobility.bus": "Bus",
+  "mobility.metro": "Metro",
+  "mobility.velib": "Velib",
+  "mobility.train": "Train"
+};
+
+export default nlMessages;
