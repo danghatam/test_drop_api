@@ -3,7 +3,7 @@
   "version": "0.2.0",
   "description": "Web Application looks for mobility data and services nearby a specific building.",
   "scripts": {
-    "build": "NODE_ENV=production API_URL=http://dev.drops.io:3000/api DOMAIN=http://dev.drops.io webpack",
+    "build": "NODE_ENV=production API_URL=http://localhost:3000/api DOMAIN=http://128.199.134.234:8080 webpack",
     "start": "webpack-dev-server",
     "lint": "node node_modules/eslint/bin/eslint.js ./app/",
     "test": "NODE_ENV=test mocha -r mock-local-storage --recursive ./tests/* --compilers js:babel-register",
